@@ -1,0 +1,37 @@
+# Version control
+.git
+.gitignore
+.github
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache
+.venv
+venv/
+env/
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+test_*.py
+.coverage
+htmlcov
+
+# Environment (sensitive data)
+.env.local
+.env.*.local
