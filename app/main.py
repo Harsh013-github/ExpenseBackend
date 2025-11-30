@@ -74,7 +74,7 @@ def root_redirect():
 # This endpoint provides an overview of all available API routes
 @app.get(f"{API_PREFIX}/")
 def index():
-    return ok("Finance Tracker API", {
+    return ok("Finance Tracker Swagger APi", {
         "auth": [f"{API_PREFIX}/auth/signup", f"{API_PREFIX}/auth/login"],
         "expenses": [
             f"{API_PREFIX}/expenses", 
